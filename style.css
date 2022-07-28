@@ -1,0 +1,161 @@
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.nav, .landing-section, .footer {
+    background-color: #1f2937;
+    overflow:auto;
+    color: #e5e7eb;
+}
+
+.section-three {
+    background-color:#E0E0E0;
+}
+
+.nav-left {
+    float: left;
+    margin: 15px 0 15px 15px;
+}
+
+.nav-right {
+    float: right;
+    margin: 15px 0;
+}
+
+.nav-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-right a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    color: #e5e7eb; 
+}
+
+.landing-section {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.landing-left{
+    float: left;
+    width: 50%;
+    padding: 10px 50px;
+    margin: 10px 10px 0 10px;
+}
+
+.landing-left h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.landing-left p {
+    color: #e5e7eb;
+    letter-spacing: 1px;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+.cta {
+    margin: 10px 0;
+    width: 125px;
+    padding: 7.5px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    text-decoration: none;
+    border:none;
+    text-align: center;
+}
+
+.landing-right {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+.landing-right img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-row {
+    overflow: hidden;
+    padding: 40px 100px;
+}
+
+.card{ 
+    float: left;
+    width: 20%;
+    border: 4px solid #3882f6;;
+    border-radius: 5px;
+    margin: auto 2%;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+.section-three {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.quote-container {
+    padding: 100px 350px;
+}
+
+.quote-container h1 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.call-to-action-container{
+    background-color: #3882f6;
+    color: #ffffff;
+    width: 30%;
+    margin: 25px auto;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.cta-two {
+    width: 125px;
+    padding: 7.5px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    text-align: center;
+}
+
+
+.footer {
+    padding: 20px 50px;
+    text-align: center;
+    font-weight: 200;
+}
+
